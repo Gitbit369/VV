@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add some padding around the header content */
+    text-align: center; /* Center-align the header content */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin for the h1 element */
+    font-size: 36px; /* Increase font size for the heading */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove default list bullet points */
+    margin: 0; /* Remove default margin for the ul element */
+    padding: 0; /* Remove default padding for the ul element */
+}
+
+header nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+header nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
