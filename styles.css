@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif; /* Set the font family for the entire page */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    background-image: url('main/webpagebackground.png'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center center; /* Center the background image */
+    color: #333; /* Default text color */
 }
 
 /* Header Styles */
@@ -15,71 +20,90 @@ header {
 
 header h1 {
     margin: 0; /* Remove default margin for the h1 element */
-    font-size: 36px; /* Increase font size for the heading */
+    font-size: 32px; /* Increase font size for the heading */
     letter-spacing: 1px; /* Add some letter spacing */
 }
 
-header nav ul {
+nav ul {
     list-style-type: none; /* Remove default list bullet points */
     margin: 0; /* Remove default margin for the ul element */
     padding: 0; /* Remove default padding for the ul element */
 }
 
-header nav ul li {
-    display: inline-block; /* Display list items horizontally */
+nav ul li {
+    display: inline; /* Display list items horizontally */
     margin-right: 20px; /* Add some spacing between list items */
 }
 
-header nav ul li a {
+nav ul li a {
     color: white; /* White text color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
 
-/* Image Styles */
-img {
-    max-width: 100%; /* Ensure images don't exceed their container */
-    height: auto; /* Maintain aspect ratio */
+/* Main Content Styles */
+main {
+    padding: 20px; /* Add padding to the main content */
 }
 
-/* Product Card Styles */
+/* Section Styles */
+section {
+    margin-bottom: 40px; /* Add margin bottom to create space between sections */
+}
+
+h2 {
+    font-size: 24px; /* Increase font size for section headings */
+    margin-bottom: 20px; /* Add some spacing below section headings */
+    color: #007bff; /* Blue color for section headings */
+}
+
+/* Product Styles */
 .product {
-    background-color: #fff; /* White background color */
-    padding: 20px; /* Add some padding */
+    background-color: #fff; /* White background color for products */
+    padding: 20px; /* Add padding around products */
     border-radius: 5px; /* Add rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
     margin-bottom: 20px; /* Add space between product cards */
 }
 
+.product img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Add rounded corners to images */
+    margin-bottom: 15px; /* Add space below images */
+}
+
 .product h3 {
-    font-size: 24px; /* Increase font size for product titles */
-    margin-bottom: 10px; /* Add some space below the title */
+    font-size: 22px; /* Increase font size for product titles */
+    margin-bottom: 10px; /* Add space below product titles */
     color: #333; /* Dark text color */
 }
 
 .product p {
     color: #666; /* Medium gray text color */
-    margin-bottom: 15px; /* Add some space below the description */
+    margin-bottom: 15px; /* Add space below product descriptions */
 }
 
 .product a {
-    background-color: #007bff; /* Blue background color */
-    color: white; /* White text color */
-    text-decoration: none; /* Remove underline from links */
-    padding: 10px 20px; /* Add padding to the button */
-    border-radius: 5px; /* Add rounded corners */
+    background-color: #007bff; /* Blue background color for buttons */
+    color: white; /* White text color for buttons */
+    text-decoration: none; /* Remove underline from buttons */
+    padding: 10px 20px; /* Add padding to buttons */
+    border-radius: 5px; /* Add rounded corners to buttons */
     transition: background-color 0.3s ease; /* Add smooth transition */
 }
 
 .product a:hover {
     background-color: #0056b3; /* Darker blue color on hover */
 }
-body {
-    background-image: url('/webpagebackground.png'); /* Adjust the path to your image */
-    background-size: cover; /* Cover the entire background */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-position: center center; /* Center the image */
+
+/* Footer Styles */
+footer {
+    background-color: #007bff; /* Blue background color for footer */
+    color: white; /* White text color for footer */
+    text-align: center; /* Center-align footer content */
+    padding: 20px; /* Add padding to footer */
 }
