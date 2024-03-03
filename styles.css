@@ -1,29 +1,22 @@
-/* Reset default styles */
-* {
-    box-sizing: border-box; /* Use border-box model for all elements */
-}
-
-/* Global styles */
+/* Reset CSS */
 body {
     font-family: Arial, sans-serif; /* Set the font family for the entire page */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    background-color: #f0f0f0; /* Light gray background */
-    color: #333; /* Default text color */
 }
 
-/* Header styles */
+/* Header Styles */
 header {
-    background-color: #007bff; /* Blue header background color */
+    background-color: #007bff; /* Blue background color */
     color: white; /* White text color */
-    padding: 20px; /* Add padding around the header content */
+    padding: 20px; /* Add some padding around the header content */
     text-align: center; /* Center-align the header content */
 }
 
 header h1 {
     margin: 0; /* Remove default margin for the h1 element */
     font-size: 36px; /* Increase font size for the heading */
-    letter-spacing: 1px; /* Add letter-spacing for better readability */
+    letter-spacing: 1px; /* Add some letter spacing */
 }
 
 header nav ul {
@@ -38,7 +31,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff; /* White text color for links */
+    color: white; /* White text color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
@@ -46,8 +39,41 @@ header nav ul li a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
 
-/* Image styles */
+/* Image Styles */
 img {
     max-width: 100%; /* Ensure images don't exceed their container */
     height: auto; /* Maintain aspect ratio */
+}
+
+/* Product Card Styles */
+.product {
+    background-color: #fff; /* White background color */
+    padding: 20px; /* Add some padding */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    margin-bottom: 20px; /* Add space between product cards */
+}
+
+.product h3 {
+    font-size: 24px; /* Increase font size for product titles */
+    margin-bottom: 10px; /* Add some space below the title */
+    color: #333; /* Dark text color */
+}
+
+.product p {
+    color: #666; /* Medium gray text color */
+    margin-bottom: 15px; /* Add some space below the description */
+}
+
+.product a {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.product a:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
 }
