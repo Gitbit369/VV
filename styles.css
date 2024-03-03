@@ -148,3 +148,13 @@ footer p {
     font-size: 16px;
     margin: 0;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('webpagebackround.png'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
