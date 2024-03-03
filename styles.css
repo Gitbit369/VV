@@ -35,3 +35,8 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+img {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
