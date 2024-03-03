@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Printing Services</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,38 +14,52 @@
             <h1>3D Printing Services</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="container">
             <h2>Welcome to Our 3D Printing Services</h2>
             <p>We offer high-quality 3D printing services for all your needs. From prototyping to production, we've got you covered.</p>
-            <a href="products.html" class="btn">Explore Products</a>
+            <a href="#products" class="btn">Explore Products</a>
         </div>
     </section>
 
-    <section class="services">
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mi ac nibh dignissim malesuada.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <p>Check out our latest products:</p>
+            <!-- Product listings can go here -->
+        </div>
+    </section>
+
+    <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <div class="service">
-                <h3>Prototyping</h3>
-                <p>Bring your ideas to life with our rapid prototyping services.</p>
-            </div>
-            <div class="service">
-                <h3>Custom Designs</h3>
-                <p>We can create custom 3D designs tailored to your specifications.</p>
-            </div>
-            <div class="service">
-                <h3>Production</h3>
-                <p>Scale up your production with our reliable 3D printing solutions.</p>
-            </div>
+            <p>Discover the services we offer:</p>
+            <!-- Service listings can go here -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us:</p>
+            <!-- Contact information and form can go here -->
         </div>
     </section>
 
