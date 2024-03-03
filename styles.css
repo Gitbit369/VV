@@ -77,3 +77,9 @@ img {
 .product a:hover {
     background-color: #0056b3; /* Darker blue color on hover */
 }
+body {
+    background-image: url('main/webpagebackground.png'); /* Adjust the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center center; /* Center the image */
+}
