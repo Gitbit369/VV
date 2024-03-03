@@ -1,19 +1,29 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box; /* Use border-box model for all elements */
+}
+
+/* Global styles */
 body {
     font-family: Arial, sans-serif; /* Set the font family for the entire page */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Default text color */
 }
 
+/* Header styles */
 header {
-    background-color: #4CAF50; /* Green background color */
+    background-color: #007bff; /* Blue header background color */
     color: white; /* White text color */
-    padding: 20px; /* Add some padding around the header content */
+    padding: 20px; /* Add padding around the header content */
     text-align: center; /* Center-align the header content */
 }
 
 header h1 {
     margin: 0; /* Remove default margin for the h1 element */
     font-size: 36px; /* Increase font size for the heading */
+    letter-spacing: 1px; /* Add letter-spacing for better readability */
 }
 
 header nav ul {
@@ -35,8 +45,9 @@ header nav ul li a {
 header nav ul li a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+
+/* Image styles */
 img {
-    width: 200px; /* Adjust width as needed */
+    max-width: 100%; /* Ensure images don't exceed their container */
     height: auto; /* Maintain aspect ratio */
 }
-
